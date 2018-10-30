@@ -1,0 +1,9 @@
+split_libraries_fastq.py \ 
+-m map.tsv \ 
+-i read1.fastq.gz \ 
+-b barcode.fastq.gz \ 
+-o ./slout `#pick any name or path here` \
+ -q 19 `#base calls with a Q-score of 19 or lower are considered low quality` \
+ 
+--rev_comp_barcode `#required for Golay error correction` \ 
+--rev_comp_mapping_barcodes `#required for Golay error correction`

@@ -1,0 +1,1 @@
+summarize_taxa_through_plots.py -i seqs_otus.biom -o taxa_summary -m mapfile.txt

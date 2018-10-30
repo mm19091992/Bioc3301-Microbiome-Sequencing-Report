@@ -1,0 +1,1 @@
+# run OTU picking  pick_open_reference_otus.py -i seqs.fna -p otu_SILVA_settings.txt -r /home/myname/data/SILVA_128_QIIME_release/rep_set/rep_set_all/97/97_otus.fasta -o OTU_SILVA

@@ -1,0 +1,1 @@
+biom convert -i otu_table_mc2_w_tax_no_pynast_failures.biom -o otu_table_mc2_w_tax_no_pynast_failures.tsv --to-tsv --header-key taxonomy
