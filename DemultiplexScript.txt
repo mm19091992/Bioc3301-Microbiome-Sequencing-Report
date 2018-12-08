@@ -5,5 +5,5 @@ split_libraries_fastq.py \
 -o ./slout `#pick any name or path here` \
  -q 19 `#base calls with a Q-score of 19 or lower are considered low quality` \
  
---rev_comp_barcode `#required for Golay error correction` \ 
---rev_comp_mapping_barcodes `#required for Golay error correction`
+--rev_comp_barcode `#Golay error correction` \ 
+--rev_comp_mapping_barcodes `#Golay error correction`
